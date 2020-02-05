@@ -39,3 +39,68 @@ body{
     font-weight: 500;
     line-height: 27px;
 }
+
+.main{
+    background-image: url(../image/head-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 175px;
+
+}
+
+.wrapper-item {
+    display: flex;
+}
+
+.header-title{
+    font-family: 'Libre Baskerville', serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 85px;
+}
+
+.btn-header{ 
+    border-radius: 25px;
+    background-color: #fc5f45;
+    padding: 19px 41px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 83px;
+}
+
+.header-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 110px;
+    margin-bottom: 176px;
+}
+
+.header-item:last-child{
+    margin-right: 0;
+}
+
+.header-text {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.ht-1 {
+    color: #feb960;
+}
+
+.ht-2{
+    color: #b27cf5;
+}
+
+.ht-3{
+    color: #38c695;
+}

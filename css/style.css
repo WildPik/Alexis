@@ -14,6 +14,7 @@ body{
     padding-right: 150px;
     max-width: 1620px;
     margin: 0 auto;
+    position: relative;
 }
 
 .nav{
@@ -103,4 +104,35 @@ body{
 
 .ht-3{
     color: #38c695;
+}
+
+.about{
+    margin-top: 148px;
+    
+}
+
+
+
+.about-content{
+    width: 492px;
+    height: 350px;
+    border: 1px solid black;
+    background-color: #fff;
+    position: absolute;
+    top: 70px;
+    right: 450px;
+    padding: 100px 80px;
+    z-index: 1;
+}
+
+.about-title{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.about-text{
+    color: #969696;
+    font-size: 15px;
+    margin-bottom: 50px;
 }

@@ -15,7 +15,6 @@ body{
     max-width: 1620px;
     margin: 0 auto;
     position: relative;
-    align-items: center;
 }
 
 .nav{
@@ -107,7 +106,7 @@ body{
 }
 
 .about{
-    margin-top: 148px;
+    margin: 148px 0;
     
 }
 
@@ -139,4 +138,73 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.focus{
+    background-color: #f7f7f7;
+    padding: 150px 0;
+}
+
+.focus-title{
+    text-align: center;
+    color: #313131;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0;
+}
+
+.focus-text{
+    text-align: center;
+    color: #616161;
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+
+.focus-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.focus-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 60px 20px;
+    margin-right: 30px;
+}
+
+.focus-item>img{
+    width: 55px;
+    height: 49px;
+}
+
+.focus-item-title{
+    color: #313131;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.focus-item-text{
+    color: #6c6c6c;
+    font-size: 15px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.fi-1{
+    border-bottom: 3px solid #fc5f45;
+}
+
+.fi-2{
+    border-bottom: 3px solid #38c695;
+}
+
+.fi-3{
+    border-bottom: 3px solid #b27cf5;
+}
+
+.fi-4{
+    border-bottom: 3px solid #feb960;
 }

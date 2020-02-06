@@ -10,11 +10,12 @@ body{
 }
 
 .wrapper{
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 270px;
+    padding-right: 270px;
     max-width: 1620px;
     margin: 0 auto;
     position: relative;
+    align-items: center;
 }
 
 .nav{
@@ -46,9 +47,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding-top: 175px;
 
 }
@@ -63,6 +61,8 @@ body{
     font-weight: 400;
     font-size: 60px;
     line-height: 85px;
+    display: inline-block;
+    text-align: center;
 }
 
 .btn-header{ 
@@ -111,8 +111,6 @@ body{
     
 }
 
-
-
 .about-content{
     width: 492px;
     height: 350px;
@@ -120,7 +118,7 @@ body{
     background-color: #fff;
     position: absolute;
     top: 70px;
-    right: 450px;
+    right: 217px;
     padding: 100px 80px;
     z-index: 1;
 }
@@ -135,4 +133,10 @@ body{
     color: #969696;
     font-size: 15px;
     margin-bottom: 50px;
+}
+
+.text-test{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

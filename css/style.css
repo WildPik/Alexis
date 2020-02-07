@@ -107,7 +107,11 @@ body{
 
 .about{
     margin: 148px 0;
-    
+}
+
+.wrap-about{
+    position: relative;
+    align-items: center;
 }
 
 .about-content{
@@ -117,7 +121,7 @@ body{
     background-color: #fff;
     position: absolute;
     top: 70px;
-    right: 217px;
+    left: 417px;
     padding: 100px 80px;
     z-index: 1;
 }
@@ -213,8 +217,14 @@ body{
     padding: 150px 0;
 }
 
+.portfolio-img-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .portfolio-img-wrapper>img{
-    margin: 20px;
+    margin: 7px;
 }
 
 .our-team-img{
@@ -368,7 +378,7 @@ body{
     display: flex;
     flex-direction: column;
     /* width: 1395px; */
-    width: 75%;
+    width: 72%;
     position: absolute;
     top: 10%;
 }

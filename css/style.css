@@ -321,3 +321,35 @@ body{
 .social-team>a>i {
     margin-right: 7px;
 }
+
+.count{
+    background-image: url(../image/our_team_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: ;
+}
+
+.wrap-count{
+    display: flex;
+    justify-content: space-around;
+}
+
+.count-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 148px;
+    margin-bottom: 125px;
+}
+
+.count-title{
+    color: #fefefe;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.count-text{
+    color: #a4a3a5;
+    font-size: 15px;
+}

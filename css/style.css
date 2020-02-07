@@ -208,3 +208,11 @@ body{
 .fi-4{
     border-bottom: 3px solid #feb960;
 }
+
+.portfolio{
+    padding: 150px 0;
+}
+
+.portfolio-img-wrapper>img{
+    margin: 20px;
+}

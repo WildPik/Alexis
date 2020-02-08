@@ -378,7 +378,7 @@ body{
     display: flex;
     flex-direction: column;
     /* width: 1395px; */
-    width: 72%;
+    width: 74%;
     position: absolute;
     top: 10%;
 }
@@ -387,8 +387,8 @@ body{
     height: 261px;
     width: 390px;
     padding-top: 36px;
-    padding-left: 124px;
-    padding-right: 68px;
+    padding-left: 50px;
+    padding-right: 49px;
     background-color: #fff;
     box-shadow: 4px -24px 15px -28px black;
 }
@@ -423,4 +423,108 @@ body{
 .wi-4{
     align-self: flex-end;
     border-bottom: 3px solid #feb960;
+}
+
+.cart-wrap-item{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-card{
+    background-color: #fff;
+    padding: 38px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itc-title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+.price-title{
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.price-text{
+    margin-top: 0;
+    font-size: 13px;
+    color: #fff;
+}
+
+.price-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 26px;
+}
+
+.it-card-1{
+    border-top: 3px solid #38c695;
+}
+
+.it-card-1>.price-box{
+    background-image: url(../image/price-bg-1.png);
+}
+
+.it-card-2{
+    border-top: 3px solid #fc5f45;
+}
+
+.it-card-2>.price-box{
+    background-image: url(../image/price-bg-2.png);
+}
+
+.it-card-3{
+    border-top: 3px solid #b27cf5;
+}
+
+.it-card-3>.price-box{
+    background-image: url(../image/price-bg-3.png);
+}
+
+.pricing-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    margin: 40px 0;
+}
+
+.pricint-list-item{
+    font-size: 15px;
+    line-height: 40px;
+    color: #6c6c6c;
+    display: inline-block;
+}
+
+.btn{
+    border-radius: 35px;
+    padding: 18px 41px;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn-green{
+    border: 2px solid #46ca9c;
+    color: #46ca9c;
+}
+
+.btn-red{
+    background-color: #fc5f45;
+    color: #fff;
+}
+
+.btn-blue{
+    border: 2px solid #b27cf5;
+    color: #b27cf5;
 }

@@ -528,3 +528,54 @@ body{
     border: 2px solid #b27cf5;
     color: #b27cf5;
 }
+
+.testimon{
+    background-color: #3f4049;
+    padding: 150px 0;
+}
+
+.testimon-head-title{
+    color: #fff;
+}
+
+.testimon-head-text{
+    color: #e5e6e7;
+}
+
+.testimon-wrap{
+    display: flex;
+    align-items: center;
+}
+
+.testimon-wrap>img{
+    border: 10px solid #a2a2a2;
+}
+
+.testimon-content{
+    padding: 44px 55px;
+    background-color: #fff;
+    border-bottom: 3px solid #fc5f45;
+}
+
+.testimon-text{
+    font-size: 15px;
+    line-height: 27px;
+    color: #616161;
+}
+
+.painting{
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    margin-top: 52px;
+    margin-bottom: 15px;
+}
+
+.painting-name{
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.painting-description{
+    font-size: 13px;
+    color: #fc6a51;
+}

@@ -724,3 +724,41 @@ body{
 .yellow-text{
     color: #feb960;
 }
+
+.from_input{
+    width: 300px;
+    height: 49px;
+    border-radius: 30px 0 0 30px;
+    border: 2px solid #efefef;
+    background-color: #f7f7f7;
+    padding-left: 20px;
+}
+
+.form_group{
+    display: flex;
+}
+
+.from_input:focus{
+    border: 2px solid #fff;
+}
+
+.btn-sub{
+    font-size: 16px;
+    background-color: #fc5f45;
+    color: #fff;
+    border: none;
+    border-radius: 0 30px 30px 0;   
+}
+
+.subscribe{
+    padding: 150px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-title{
+    font-size: 30px;
+    font-weight: 500;
+}
